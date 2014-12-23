@@ -1,0 +1,164 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/f:Web.config" caret="512" fromTop="11" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:Create.cshtml" caret="144" fromTop="11" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Shared/d:EditorTemplates/f:WYSIWYG.cshtml" caret="0" fromTop="0" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Helpers/f:StringHelpers.cs" caret="163" fromTop="6" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:Index.cshtml" caret="204" fromTop="14" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/d:DisplayTemplates/f:Post.cshtml" caret="76" fromTop="3" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Domain/f:Post.cs" caret="306" fromTop="5" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:Update.cshtml" caret="0" fromTop="0" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Domain/f:Comment.cs" caret="231" fromTop="10" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:AddComment.cshtml" caret="390" fromTop="13" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:Comment.cshtml" caret="266" fromTop="9" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:Delete.cshtml" caret="0" fromTop="0" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:CommentList.cshtml" caret="0" fromTop="0" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:Detail.cshtml" caret="774" fromTop="12" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:CommentService.cs" caret="510" fromTop="10" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Helpers/f:MongoHelper.cs" caret="578" fromTop="18" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:PostService.cs" caret="1998" fromTop="15" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Controllers/f:PostController.cs" caret="223" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Controllers/f:PostController.cs" caret="1258" fromTop="16" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Controllers/f:PostController.cs" caret="2405" fromTop="23" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:Detail.cshtml" caret="2110" fromTop="26" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:AddComment.cshtml" caret="24" fromTop="0" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:PostService.cs" caret="1072" fromTop="26" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Controllers/f:PostController.cs" caret="1748" fromTop="10" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Controllers/f:PostController.cs" caret="1400" fromTop="10" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Domain/f:Comment.cs" caret="231" fromTop="10" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:Detail.cshtml" caret="771" fromTop="4" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:Detail.cshtml" caret="100" fromTop="4" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Controllers/f:PostController.cs" caret="3738" fromTop="24" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:Detail.cshtml" caret="1230" fromTop="19" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Controllers/f:PostController.cs" caret="2093" fromTop="14" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Views/d:Post/f:Detail.cshtml" caret="778" fromTop="14" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Controllers/f:PostController.cs" caret="3944" fromTop="11" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:CommentService.cs" caret="1698" fromTop="30" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:CommentService.cs" caret="1685" fromTop="23" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:CommentService.cs" caret="1685" fromTop="22" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:CommentService.cs" caret="926" fromTop="17" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:PostService.cs" caret="466" fromTop="19" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:CommentService.cs" caret="275" fromTop="1" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:CommentService.cs" caret="373" fromTop="5" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:CommentService.cs" caret="530" fromTop="11" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:CommentService.cs" caret="772" fromTop="17" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:PostService.cs" caret="776" fromTop="18" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Helpers/f:MongoHelper.cs" caret="234" fromTop="9" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:PostService.cs" caret="1988" fromTop="17" />
+      <File id="35DA74DE-0F3C-41BF-95AA-62A11653050C/d:Services/f:PostService.cs" caret="1998" fromTop="15" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Controllers/f:PostController.cs" caret="4302" fromTop="18" />
+      <File id="F5C8BAEE-FD42-4102-966F-7C8BF3D8D0E5/d:Controllers/f:PostController.cs" caret="2406" fromTop="9" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="MongoServer`0" priority="0" />
+      <Item value="MongoConnectionStringBuilder`0" priority="2" />
+      <Item value="MongoServerSettings`0" priority="0" />
+      <Item value="new" priority="3" />
+      <Item value="MongoServerSettings" priority="0" />
+      <Item value="collection" priority="0" />
+      <Item value="BsonId" priority="0" />
+      <Item value="var" priority="4" />
+      <Item value="con" priority="1" />
+      <Item value="db" priority="0" />
+      <Item value="BsonIgnoreExtraElements" priority="0" />
+      <Item value="private" priority="2" />
+      <Item value="string" priority="1" />
+      <Item value="where" priority="0" />
+      <Item value="public" priority="3" />
+      <Item value="MongoHelper" priority="4" />
+      <Item value="T`0" priority="0" />
+      <Item value="Type`0" priority="0" />
+      <Item value="typeof" priority="1" />
+      <Item value="MongoCollection`0" priority="0" />
+      <Item value="Collection" priority="0" />
+      <Item value="Post`0" priority="2" />
+      <Item value="mongo" priority="1" />
+      <Item value="PostService`0" priority="0" />
+      <Item value="_mongo" priority="2" />
+      <Item value="Query`0" priority="1" />
+      <Item value="post" priority="4" />
+      <Item value="Update`0" priority="3" />
+      <Item value="Set`0" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="return" priority="1" />
+      <Item value="updatePost" priority="0" />
+      <Item value="readonly" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MongoDB.Driver.MongoServer">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MongoDB.Driver.MongoConnectionStringBuilder">
+      <Item value="AppendKeyValuePair`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MongoDB.Driver.MongoCollection`1">
+      <Item value="Insert`0" priority="0" />
+      <Item value="Update`0" priority="0" />
+      <Item value="FindAndModify`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="ConnectionStrings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ConnectionString" priority="1" />
+      <Item value="CurrentConfiguration" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MongoDB.Driver.MongoConnectionStringBuilder">
+      <Item value="DatabaseName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MongoDB.Driver.MongoDatabase">
+      <Item value="GetCollection`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToLower`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Core.Helpers.MongoHelper`1">
+      <Item value="Collection" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MongoDB.Driver.Builders.Query">
+      <Item value="EQ`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Core.Domain.Post">
+      <Item value="PostId" priority="0" />
+      <Item value="Title" priority="0" />
+      <Item value="Url" priority="0" />
+      <Item value="Summary" priority="0" />
+      <Item value="Details" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MongoDB.Driver.Builders.Update">
+      <Item value="Set`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MongoDB.Driver.Builders.UpdateBuilder">
+      <Item value="Set`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MongoDB.Driver.FindAndModifyResult">
+      <Item value="GetModifiedDocumentAs`0" priority="2" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

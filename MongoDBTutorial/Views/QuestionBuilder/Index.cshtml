@@ -1,0 +1,25 @@
+﻿@model Core.Domain.Question
+
+@{
+    ViewBag.Title = "QuestionBuilder";
+}
+
+<h2>QuestionBuilder</h2>
+
+
+
+@using (Html.BeginForm())
+{
+    <h4>Unique Key for Question Response Submission</h4>
+    @Html.TextBoxFor(q => q.UniqueKey);
+    <br />
+    <h4>What is the Question Prompt?</h4>
+    @Html.TextBoxFor(q => q.Prompt);
+    <!-- <br />
+    <h4>Num OptionsThis should be -1 for free response questions, number of possible responses otherwise</h4>
+    @Html.EditorFor(q => q.UniqueKey);
+        -->
+    <br />
+    <br />
+    <input type="submit" value="SubmitQuestion"/>
+}

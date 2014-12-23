@@ -1,0 +1,125 @@
+﻿@model MongoDBTutorial.Models.Survey1Model
+
+@{
+    ViewBag.Title = "Survey1";
+}
+
+@section JavaScript
+{
+   <script type="text/javascript" src="@Url.Content("~/Scripts/jquery.maskedinput.js")"></script>
+   <script type="text/javascript">
+    jQuery(function ($) {
+        $("#PhoneNumber").mask("99/99/9999", { placeholder: " " });
+    });
+   </script>
+}
+<h2>Survey1</h2>
+
+<h3>@ViewBag.Header</h3>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <fieldset>
+        <legend>Survey Form</legend>
+        <ol>
+             <!--The first part of this is in every Survey-->
+            <li>
+                @Html.LabelFor(m => m.Name)
+                <br />
+                @Html.TextBoxFor(m => m.Name)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Email)
+                <br />
+                @Html.EditorFor(m => m.Email)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.OrganizationType)
+                <br />
+                 @Html.DropDownListFor(m => m.OrganizationType, new SelectList(Enum.GetValues(typeof(Core.Domain.OrgType))), "Please select an Organization Type")
+              </li>
+            <li>
+                @Html.LabelFor(m => m.PhoneNumber)
+                <br />
+                @Html.EditorFor(m => m.PhoneNumber)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Title)
+                <br />
+                @Html.EditorFor(m => m.Title)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Company)
+                <br />
+                @Html.EditorFor(m => m.Company)
+            </li>
+            <!-- Below is custom to this Survey-->
+            <li>
+                <br />
+                <h1>What's your favorite color?</h1>
+                <div class="editor-field">
+                    @Html.RadioButtonFor(m => m.Question1[0], "Blue")
+                    Blue
+                    @Html.RadioButtonFor(m => m.Question1[1], "Red")
+                    Red
+                    @Html.RadioButtonFor(m => m.Question1[2], "Green")
+                    Green
+                    @Html.RadioButtonFor(m => m.Question1[3], "Other")
+                    Other
+                </div>
+       
+
+
+
+            </li>
+            <li>
+                <h1 style="color:#e74c3c;" > What's a good name for the color this text is written in?</h1>
+                <br />
+                @Html.TextBoxFor(m => m.Question2[0])
+
+            </li>
+            <li>
+                <h1>Which of these are offical GT colors?</h1>
+                <br />
+                @Html.CheckBoxFor(m => m.Question3[0])
+                <p style="color: #CFB53B">Old Gold</p>
+                @Html.CheckBoxFor(m => m.Question3[1])
+                <p style="color: #CC0000">Red</p>
+                @Html.CheckBoxFor(m => m.Question3[2])
+                <p style="color: #000080">Navy</p>
+                @Html.CheckBoxFor(m => m.Question3[3])
+                <p style="color: #FFA500">Orange</p>
+                @Html.CheckBoxFor(m => m.Question3[3])
+                <p style="color: #000000">Black</p>
+
+            </li>
+            <li>
+                <h1>Type a color associated with your name somehow (like Gary Green)</h1>
+                <br />
+                @Html.TextBoxFor(m => m.Question4[0])
+            </li>
+            <h1> Which of these is not a simile?</h1>
+                <div class="editor-field">
+                    @Html.RadioButtonFor(m => m.Question5[0], "first")
+                    As Blue as the Sky
+                    <br />
+                    @Html.RadioButtonFor(m => m.Question5[1], "second")
+                    Burning Red like fire
+                    <br />
+                    @Html.RadioButtonFor(m => m.Question5[2], "third")
+                    As Green as grass
+                    <br />
+                    @Html.RadioButtonFor(m => m.Question5[3], "fourth")
+                    Darker than the night Sky
+                    <br />
+                </div>
+        </ol>
+        <input type="submit" value="Respond" />
+    </fieldset>
+}
+<script>
+    
+</script>
+

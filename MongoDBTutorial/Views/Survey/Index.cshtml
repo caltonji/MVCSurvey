@@ -1,0 +1,16 @@
+﻿@model MongoDBTutorial.Models.RedirectModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h2>What is the name of the Survey you are trying to do? (only typing "Survey1" will get you anywere useful)</h2>
+<h2>Also use <a href="@{string.Format("{0}://{1}{2}", Request.Url.Scheme, Request.Url.Authority, Url.Content("~"));}/QuestionBuilder">/QuestionBuilder</a> to add Questions explicitly to database</h2>
+@using (Html.BeginForm())
+{
+    @Html.TextBoxFor(m => m.redirect);
+    <br />
+    <input type="submit" value="Redirect" />
+}
